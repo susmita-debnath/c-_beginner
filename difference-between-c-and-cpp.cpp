@@ -3,13 +3,15 @@
 #include<iostream>
 using namespace std;
 
+struct abc{
+    int a;
+};
+
 int main()
 {
-    int a;
+    abc ob;
+    ob.a = 5;
+    cout<<ob.a<<endl;
 
-    a = 5;
-
-    int b;
-
-
+    return 0;
 }
