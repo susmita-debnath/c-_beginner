@@ -7,7 +7,10 @@ int main()
 {
     int *ptr;
     ptr = new int(5);
-    cout << *ptr << endl;
+    ptr[1] = 6;
+    cout << ptr[1] << endl;
+    cout << *(ptr+1) << endl;
+    delete [] ptr;
 
     return 0;
 }

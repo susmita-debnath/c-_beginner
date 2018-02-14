@@ -7,7 +7,7 @@ int main()
     int age;
     float avg;
 
-    cout << "Enter your age and average"<<endl;
+    cout << "Enter your age and average" <<endl;
 
     cin >> age >> avg;
 
