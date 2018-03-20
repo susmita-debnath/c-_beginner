@@ -14,3 +14,8 @@ void insert_f(int a)
     newelement->nxt = Head;
     Head = newelement;
 }
+
+void insert_l(int a)
+{
+    struct element *newelement = (struct element*)malloc(sizeof(struct element));
+}
